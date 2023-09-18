@@ -1,0 +1,23 @@
+root@1937369-wp36511:~# cat > Pets
+Dogs
+Cats
+Hamsters
+root@1937369-wp36511:~# cat > PackAnimals
+Horses
+Camels
+Donkeys
+root@1937369-wp36511:~# cat  PackAnimals >> Pets 
+root@1937369-wp36511:~# mv Pets FriendsOfMan
+root@1937369-wp36511:~# cat FriendsOfMan 
+Dogs
+Cats
+Hamsters
+Horses
+Camels
+Donkeys
+root@1937369-wp36511:~# mkdir NewDir
+root@1937369-wp36511:~# mv FriendsOfMan NewDir
+root@1937369-wp36511:~# ls NewDir/
+FriendsOfMan
+
+
